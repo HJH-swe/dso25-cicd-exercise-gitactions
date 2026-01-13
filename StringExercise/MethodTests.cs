@@ -18,7 +18,7 @@ public class MethodTests
         Assert.Equal(expected, result);
 
     }
-
+    [Fact]
     public void TestMergeStrings()
     {
         // given
@@ -33,7 +33,7 @@ public class MethodTests
         // then
         Assert.Equal(expected, result);
     }
-
+    [Fact]
     public void TestRemoveWhitespace()
     {
         // given

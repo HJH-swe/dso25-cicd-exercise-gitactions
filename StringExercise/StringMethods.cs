@@ -1,6 +1,6 @@
 public class StringMethods
 {
-    public static string ReverseString(string input)
+    public static string? ReverseString(string input)
     {
         if (input == null)
             return null;
@@ -10,12 +10,12 @@ public class StringMethods
         return new string(charArray);
     }
 
-    public static string MergeStrings(string str1, string str2)
+    public static string? MergeStrings(string str1, string str2)
     {
         return str1 + str2;
     }
 
-    public static string RemoveWhitespace(string input)
+    public static string? RemoveWhitespace(string input)
     {
         if (input == null)
             return null;
