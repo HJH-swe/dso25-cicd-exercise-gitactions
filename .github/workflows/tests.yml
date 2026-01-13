@@ -19,8 +19,6 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ./StringExercise
 
     - name: Run unit tests
       run: dotnet test
-      working-directory: ./StringExercise
